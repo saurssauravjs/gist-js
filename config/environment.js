@@ -3,6 +3,12 @@
 
 module.exports = function(environment) {
   let ENV = {
+    firebase: {
+      apiKey: "AIzaSyAVTb3y8Rb0CYGwvKLvgABlPz9ruCnGing",
+      authDomain: "ember-gist.firebaseapp.com",
+      databaseURL: "https://ember-gist.firebaseio.com",
+      storageBucket: "ember-gist.appspot.com"
+    },
     modulePrefix: 'gist-js',
     environment,
     rootURL: '/',
